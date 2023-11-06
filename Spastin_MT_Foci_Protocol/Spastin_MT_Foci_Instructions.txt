@@ -1,0 +1,13 @@
+Spastin_MT_Foci Instructions
+
+Megan E. Kelley
+kelley.e.megan@gmail.com
+updated 20210320
+
+
+1) Image cells expressing fluorescently labeled tubulin and fluorescently labeled spastin
+2) Track spastin foci from hyperstacks (x,y,z,t) using FIJI Trackmate
+3) Run Channel_Split.ijm in FIJI to separate hyperstacks by channel
+4) Run MeasureTubulinAndSpastinTracks_20200727_v2.m in MATLAB to manually categorize spastin foci as kinetochore/midzone associated and determine whether tubulin is proximal
+5) Organize saved MATLAB data files into folders by treatment conditions
+6) Run LoopingTubSpastTracks_20201130.m in MATLAB to combine data from multiple cells per condition

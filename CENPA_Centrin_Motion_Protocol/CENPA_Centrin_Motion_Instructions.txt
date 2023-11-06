@@ -1,0 +1,14 @@
+CENPA_Centrin_Motion Instructions
+
+Megan E. Kelley
+kelley.e.megan@gmail.com
+updated 20210320
+
+
+1) Image cells as per LiveImagingCENPcen_20201216.doc protocol
+2) Track CENPA/centrin foci from hyperstacks (x,y,z,t) using FIJI Trackmate
+3) Delete any extraneous tracks (if two tracks are present for the centrosome, delete the shortest track)
+4) Save the SPOTS data as a csv file
+5) Organize csv files into folders by treatment conditions
+6) For each csv file, run xyzCenpTrack_v6.m to calculate pole separation and kinetochore to pole movements (matlab data is saved to source folder for csv file)
+7) Run LoopingMeanCurves_CENP_20210206.m on source folder (organized by treatment conditions) for matlab files to calculate averages for given condition 

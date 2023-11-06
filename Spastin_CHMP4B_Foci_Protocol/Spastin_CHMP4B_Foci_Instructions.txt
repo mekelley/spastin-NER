@@ -1,0 +1,11 @@
+Spastin_CHMP4B_Foci Instructions
+
+Megan E. Kelley
+kelley.e.megan@gmail.com
+updated 20210320
+
+
+1) Image spastin or CHMP4B expressing cells as per LiveImagingFlpIn_20190329.doc protocol
+2) Organize image files into folders by cell type and then treatment (ex. HeLa/DMSO/*image files*)
+3) Run Cyto_20200225.ijm in FIJI to evaluate the cytoplasmic background/expression of construct
+4) Run ComDetAnalysisMaxIP_20200226.ijm in FIJI to calculate number of foci per frame (change parameters as indicated in code based on whether cells express spastin or CHMP4B)  

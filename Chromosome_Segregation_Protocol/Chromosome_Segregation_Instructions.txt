@@ -1,0 +1,14 @@
+Chromosome_Segregation Instructions
+
+Megan E. Kelley
+kelley.e.megan@gmail.com
+updated 20210320
+
+
+1) Image cells as per LiveImagingDNA_20190926.doc protocol
+2) Use Hyperstack.ijm in FIJI to convert image files into hyperstacks if necessary
+3) Organize files into folders by cell type, then treatment (ex. HeLa/DMSO/*files*)
+4) Run wekaBinarization_20201123.ijm in FIJI to segment nuclei, record nuclei position information, and save relevant images
+5) Run CentroidTracking_20201123.m on the "DNAresults" folder from the analysis in step 3
+6) Ensure all saved matlab files from step 4 (repeated for each treatment to be compared) are placed in the same folder
+7) Run LoopingMeanCurves_ChromatinSep_20201001.m on the folder containing all matlab analyses (step 5) to obtain averages
