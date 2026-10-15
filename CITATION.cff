@@ -1,0 +1,28 @@
+```
+      cff-version: 1.2.0
+      message: "If you use this code, please cite the paper below."
+      authors:
+        - family-names: Kelley
+          given-names: Megan E.
+          orcid: https://orcid.org/0000-0002-0251-5054
+      title: "spastin-NER: analysis code for Kelley et al. 2024"
+      preferred-citation:
+        type: article
+        authors:
+          - family-names: Kelley
+            given-names: Megan E.
+          - family-names: Carlini
+            given-names: Lina
+          - family-names: Kornakov
+            given-names: Nikolay
+          - family-names: Aher
+            given-names: Amol
+          - family-names: Khodjakov
+            given-names: Alexey
+          - family-names: Kapoor
+            given-names: Tarun M.
+        title: "Spastin regulates anaphase chromosome separation distance and microtubule-containing nuclear tunnels"
+        journal: "Molecular Biology of the Cell"
+        year: 2024
+        doi: 10.1091/mbc.E24-01-0031-T
+      ```
